@@ -165,8 +165,7 @@
     cursor: pointer;
     display: flex;
     font-family: var(--font);
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 16px;
     justify-content: center;
     line-height: 1.5em;
     margin: 0;
@@ -191,24 +190,24 @@
     min-width: 0;
 }
 
-.atcb-button.atcb-click {
-    top: -3px;
-    left: -3px;
-    box-shadow: 3px 3px 0 0 var(--btn-shadow);
-}
+/*.atcb-button.atcb-click {*/
+/*top: -3px;*/
+/*left: -3px;*/
+/*box-shadow: 3px 3px 0 0 var(--btn-shadow);*/
+/*}*/
 
 .atcb-rtl .atcb-button {
     direction: rtl;
     text-align: right;
 }
 
-.atcb-button:focus,
-.atcb-button:hover {
-    background-color: var(--btn-background-hover);
-    top: 0;
-    left: 0;
-    box-shadow: 0 0 0 0 var(--btn-shadow);
-}
+/*.atcb-button:focus,*/
+/*.atcb-button:hover {*/
+/*background-color: var(--btn-background-hover);*/
+/*top: 0;*/
+/*left: 0;*/
+/*box-shadow: 0 0 0 0 var(--btn-shadow);*/
+/*}*/
 
 .atcb-button:focus-visible {
     outline: 2px solid var(--keyboard-focus);
@@ -336,7 +335,7 @@
 .atcb-list-item:focus-visible {
     background-color: var(--list-background-hover);
     color: var(--keyboard-focus);
-    font-weight: 600;
+    /*font-weight: 600;*/
     outline: none;
 }
 
@@ -442,7 +441,7 @@
 /* content */
 .atcb-modal-headline {
     font-size: 1.3em;
-    font-weight: 600;
+    /*font-weight: 600;*/
     line-height: 1.5em;
     padding: 1.8em 2em 1.3em;
     text-transform: uppercase;
@@ -490,7 +489,7 @@ a.atcb-modal-btn {
     display: inline-block;
     font-family: var(--font);
     font-size: 0.9em;
-    font-weight: 600;
+    /*font-weight: 600;*/
     line-height: 1.5em;
     margin: 0.625em;
     padding: 0.625em 1.25em;
@@ -604,7 +603,7 @@ a.atcb-modal-btn:focus-visible {
 
 .atcb-date-btn-month {
     color: var(--date-btn-cal-month-text);
-    font-weight: 600;
+    /*font-weight: 600;*/
     font-size: 1em;
 }
 
