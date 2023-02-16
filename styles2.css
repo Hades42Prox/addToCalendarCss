@@ -855,9 +855,6 @@ a.atcb-modal-btn:focus-visible {
 .atcb-icon .atcb-icon-outlookcom svg {
     filter: var(--icon-filter);
 }
-:host {
-    --btn-background: #ffa255;
-}
 :host(.atcb-dark),
 :host-context(html.atcb-dark):host(.atcb-bodyScheme),
 :host-context(body.atcb-dark):host(.atcb-bodyScheme) {
