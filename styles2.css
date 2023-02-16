@@ -189,7 +189,7 @@
 
 .atcb-button {
     align-items: center;
-    background-color: var(--btn-background);
+    background-color: #ffffff;
     border: 1px solid var(--btn-border);
     border-radius: 6px;
     box-shadow: none !important ;
