@@ -147,6 +147,7 @@
 /******************************
  * The triggering button
  */
+
 .atcb-initialized {
     display: inline-block !important;
 }
@@ -160,7 +161,6 @@
 .atcb-button {
     align-items: center;
     background-color: #ffffff;
-    border: 0.2em solid var(--btn-border);
     color: var(--btn-text);
     cursor: pointer;
     display: flex;
@@ -172,7 +172,8 @@
     margin: 0;
     max-width: 350px;
     min-width: 10em;
-    padding: 0.8em 1.2em;
+    padding: 6.428571428571429px 15px;
+    border-radius: 8px;
     top: 0;
     left: 0;
     box-shadow: none !important;
