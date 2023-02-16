@@ -1,0 +1,8 @@
+.atcb-initialized{
+    display: inline-block;
+}
+
+.atcb-button{
+    box-shadow: none !important;
+    background-color: #ffffff;
+}
